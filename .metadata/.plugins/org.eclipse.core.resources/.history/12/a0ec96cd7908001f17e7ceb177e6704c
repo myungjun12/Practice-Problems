@@ -1,0 +1,38 @@
+
+public class Test1 {
+//필드
+	private int hour;
+	private int minute;
+	private int second;
+//메서드
+	//Setter
+	public void setHour(int hour) {
+		this.hour = hour;
+	}
+	public void setMinute(int minute) {
+		this.minute = minute;
+	}
+	public void setSecond(int second) {
+		this.second = second;
+	}
+	//Getter
+	public int getHour() {
+		return hour;
+	}
+	public int getMinute() {
+		return minute;
+	}
+	public int getSecond() {
+		return second;
+	}
+	//기본생성자
+	public Test1() {}
+	//필수생성자
+	public Test1(int hour, int minute, int second) {
+		super();
+		this.hour = hour;
+		this.minute = minute;
+		this.second = second;
+	}
+	
+}

@@ -1,0 +1,11 @@
+package reder_read;
+
+import java.io.FileReader;
+import java.io.Reader;
+
+public class ReadExample1 {
+
+	public static void main(String[] args) throws Exception {
+		Reader reader = new FileReader("C:/Temp/test.txt");
+	}
+}

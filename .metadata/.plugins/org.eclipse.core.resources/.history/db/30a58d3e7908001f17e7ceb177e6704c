@@ -1,0 +1,16 @@
+
+public class Test1 {
+//필드
+	private int hour;
+	private int minute;
+	private int second;
+	
+	
+}
+
+class Test3{
+	public static void main(String[] args) {
+		Test1 t = new Test1();
+		
+	}
+}

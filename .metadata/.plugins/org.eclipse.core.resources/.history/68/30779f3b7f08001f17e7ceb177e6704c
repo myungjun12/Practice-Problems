@@ -1,0 +1,17 @@
+
+class Parents{
+	public Parents() {
+//필드
+		int x;
+		int y;
+	}
+}
+
+public class Child {
+
+	public Child() {
+	}
+	
+	
+}
+

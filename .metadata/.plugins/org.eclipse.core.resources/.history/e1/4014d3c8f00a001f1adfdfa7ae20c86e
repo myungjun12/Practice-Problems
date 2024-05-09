@@ -1,0 +1,9 @@
+package stream;
+
+
+public class WriteExample2 {
+
+	public static void main(String[] args) throws Exception {
+		
+	}
+}

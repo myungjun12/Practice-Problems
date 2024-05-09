@@ -1,0 +1,18 @@
+import java.io.File;
+
+public class StreamEx {
+
+	public static void main(String[] args) {
+		
+		File file = new File("");
+	
+	InputStream : 입력스트림
+	OutputStream : 출력스트림
+	Reader : 입력스트림 (문자전용스트림)
+	Writer : 출력스트림 (문자전용스트림)
+	
+	[ex]
+	콘솔창에 있는 출력물을 읽어드리는 in
+	System.out.println();
+	}
+}

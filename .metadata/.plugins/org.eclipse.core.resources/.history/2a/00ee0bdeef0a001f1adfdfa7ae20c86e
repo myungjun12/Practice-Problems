@@ -1,0 +1,19 @@
+package stream;
+
+import java.io.FileOutputStream;
+import java.io.OutputStream;
+
+public class WriteExample {
+
+	public static void main(String[] args) throws Exception {
+		OutputStream os = new FileOutputStream("C:/Temp/test.txt");
+		byte[] date = "ABCㅇㅇ".getBytes();
+		for(int i = 0; i < date.length; i++) {
+			os.write(date[i]);
+			System.out.println(date[i]);
+		}
+		
+		os.flush();
+		os.close();
+	}
+}

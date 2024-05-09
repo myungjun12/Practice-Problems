@@ -1,0 +1,27 @@
+
+public class Test1 {
+//필드
+	private int hour;
+	private int minute;
+	private int second;
+//메서드
+	//Setter
+	public void setHour(int hour) {
+		this.hour = hour;
+	}
+	public void setMinute(int minute) {
+		this.minute = minute;
+	}
+	public void setSecond(int second) {
+		this.second = second;
+	}
+	//Getter
+	
+}
+
+class Test3{
+	public static void main(String[] args) {
+		Test1 t = new Test1();
+		
+	}
+}

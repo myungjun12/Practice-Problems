@@ -1,0 +1,20 @@
+
+class Parents{
+	int x;
+	int y;
+	public Parents() {
+	}
+	public Parents(int x,int y) {
+		this.x = x;
+		this.y = y;
+	}
+}
+
+public class Child extends Parents{
+
+	public Child() {
+	}
+	
+	
+}
+

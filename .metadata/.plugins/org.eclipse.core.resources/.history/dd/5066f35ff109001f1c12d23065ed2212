@@ -1,0 +1,12 @@
+import java.util.Calendar;
+
+public class Date {
+	
+	public static void main(String[] args) {
+		Date now = new Date();
+		Calendar calendar = Calendar.getInstance();
+		int lastDayOfMonth = calendar.getActualMaximum(Calendar.DATE);
+		System.out.println(lastDayOfMonth);
+	
+	}
+}

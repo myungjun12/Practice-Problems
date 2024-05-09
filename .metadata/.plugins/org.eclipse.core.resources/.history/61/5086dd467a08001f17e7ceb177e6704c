@@ -1,0 +1,8 @@
+
+public class Sas {
+
+	public static void main(String[] args) {
+		Test1 t = new Test1(3,2,4);
+		System.out.println(t.getHour()+"시"+ t.getMinute()+"분" + t.getSecond());
+	}
+}

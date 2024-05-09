@@ -1,0 +1,17 @@
+
+class Parents{
+	int x;
+	int y;
+	
+	public Parents() {
+	}
+}
+
+public class Child {
+
+	public Child() {
+	}
+	
+	
+}
+

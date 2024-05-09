@@ -1,0 +1,19 @@
+
+class Parents{
+	int x;
+	int y;
+	
+	public Parents(int x,int y) {
+		this.x = x;
+		this.y = y;
+	}
+}
+
+public class Child {
+
+	public Child() {
+	}
+	
+	
+}
+
